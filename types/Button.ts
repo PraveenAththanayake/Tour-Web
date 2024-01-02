@@ -6,6 +6,6 @@ export interface CustomButtonProps {
   containerStyles?: string;
   textStyles?: string;
   title: string;
-  rightIcon?: string;
+  rightIcon?: React.ReactNode;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
 }

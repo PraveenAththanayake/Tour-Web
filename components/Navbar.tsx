@@ -15,7 +15,7 @@ import CustomButton from "./CustomButton";
 const Navbar = () => {
   const handleClose = () => {};
   return (
-    <nav className="sticky">
+    <nav className="fixed top-0 w-full z-50 bg-white">
       <div className="max-w-screen-xl flexBetween flex-row px-5 sm:px-10 mx-auto py-5">
         <h1 className="text-2xl">
           Tour <span className="text-green-400">X</span>
@@ -40,7 +40,7 @@ const Navbar = () => {
               alt="user"
             />
           </MenuButton>
-          <MenuList className="shadow-lg p-5 flex flex-col gap-2">
+          <MenuList className="shadow-lg p-5 flex flex-col gap-2 bg-white">
             <MenuItem>My Account</MenuItem>
             <MenuItem>Payments</MenuItem>
             <MenuDivider />

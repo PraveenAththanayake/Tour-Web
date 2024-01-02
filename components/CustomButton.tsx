@@ -18,18 +18,8 @@ const CustomButton = ({
     className={`custom-btn ${containerStyles}`}
     onClick={handleClick}
   >
-    <span className={`flex-1 ${textStyles}`}>{title}</span>
-    {rightIcon && (
-      <div className="relative w-6 h-6">
-        <Image
-          width={30}
-          height={30}
-          src={rightIcon}
-          alt="rightIcon"
-          className="object-contain"
-        />
-      </div>
-    )}
+    <span className={`${textStyles}`}>{title}</span>
+    {rightIcon && <div className="ml-2 sm:ml-5">{rightIcon}</div>}
   </button>
 );
 
