@@ -22,7 +22,7 @@ export default class Hero extends Component {
     };
 
     return (
-      <div className="mx-auto my-20 flexCenter">
+      <div className="mx-auto mt-20 flexCenter">
         <div className="relative w-[93vw]">
           <div className="z-0 h-[60vw] md:h-[45vw] xl:h-[40vw] overflow-hidden rounded-lg relative">
             <Slider {...settings}>
@@ -47,7 +47,7 @@ export default class Hero extends Component {
                   </p>
                   <CustomButton
                     title="Explore Now"
-                    containerStyles="bg-green-500 max-xs:hidden"
+                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 "
                     rightIcon={<BsArrowRightCircle />}
                   />
                 </div>
@@ -73,7 +73,7 @@ export default class Hero extends Component {
                   </p>
                   <CustomButton
                     title="Explore Now"
-                    containerStyles="bg-green-500 max-xs:hidden"
+                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 "
                     rightIcon={<BsArrowRightCircle />}
                   />
                 </div>
@@ -99,7 +99,7 @@ export default class Hero extends Component {
                   </p>
                   <CustomButton
                     title="Explore Now"
-                    containerStyles="bg-green-500 max-xs:hidden"
+                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 "
                     rightIcon={<BsArrowRightCircle />}
                   />
                 </div>
