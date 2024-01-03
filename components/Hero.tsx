@@ -23,8 +23,8 @@ export default class Hero extends Component {
 
     return (
       <div className="mx-auto mt-20 flexCenter">
-        <div className="relative w-[93vw]">
-          <div className="z-0 h-[60vw] md:h-[45vw] xl:h-[40vw] overflow-hidden rounded-lg relative">
+        <div className="relative w-[90vw]">
+          <div className="z-0 h-[50vw] md:h-[45vw] xl:h-[40vw] overflow-hidden rounded-lg relative">
             <Slider {...settings}>
               <div className="relative">
                 <Image
@@ -36,8 +36,8 @@ export default class Hero extends Component {
                   priority={true}
                   loading="eager"
                 />
-                <div className="absolute w-[90%] top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
-                  <h1 className="text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
+                <div className="absolute w-[90%] top-[38%] sm:top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                  <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     Journey to Serenity: Uncover Sri Lanka's Natural Beauty
                   </h1>
                   <p className="italic mt-3 md:mt-8 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
@@ -47,7 +47,7 @@ export default class Hero extends Component {
                   </p>
                   <CustomButton
                     title="Explore Now"
-                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 "
+                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 hover:bg-green-600"
                     rightIcon={<BsArrowRightCircle />}
                   />
                 </div>
@@ -62,8 +62,8 @@ export default class Hero extends Component {
                   priority={true}
                   loading="eager"
                 />
-                <div className="absolute w-[90%] top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
-                  <h1 className="text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
+                <div className="absolute w-[90%] top-[38%] sm:top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                  <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     Immerse Yourself in Sri Lanka's Rich Heritage
                   </h1>
                   <p className="italic mt-3 md:mt-8 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
@@ -73,7 +73,7 @@ export default class Hero extends Component {
                   </p>
                   <CustomButton
                     title="Explore Now"
-                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 "
+                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 hover:bg-green-600"
                     rightIcon={<BsArrowRightCircle />}
                   />
                 </div>
@@ -88,8 +88,8 @@ export default class Hero extends Component {
                   priority={true}
                   loading="eager"
                 />
-                <div className="absolute w-[90%] top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
-                  <h1 className="text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
+                <div className="absolute w-[90%] top-[38%] sm:top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                  <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     From Beaches to Mountains - Nature's Masterpiece
                   </h1>
                   <p className="italic mt-3 md:mt-8 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
@@ -99,7 +99,7 @@ export default class Hero extends Component {
                   </p>
                   <CustomButton
                     title="Explore Now"
-                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 "
+                    containerStyles="bg-green-500 max-xs:hidden mt-5 text-xs sm:text-base xxxl:text-xl py-2 px-6 sm:py-3 xxxl:py-5 xxxl:px-8 hover:bg-green-600"
                     rightIcon={<BsArrowRightCircle />}
                   />
                 </div>

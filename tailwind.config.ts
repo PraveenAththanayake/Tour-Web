@@ -2,7 +2,6 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./node_modules/flowbite-react/lib/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,6 +15,8 @@ const config: Config = {
       },
     },
     colors: {
+      white: "#ffffff",
+      black: "#000000",
       green: {
         "50": "#f1fcf5",
         "100": "#dff9e8",
@@ -41,6 +42,6 @@ const config: Config = {
       xxxl: "1920px",
     },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [],
 };
 export default config;
