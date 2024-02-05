@@ -36,7 +36,7 @@ export default class Hero extends Component {
                   priority={true}
                   loading="eager"
                 />
-                <div className="absolute w-[90%] top-[38%] sm:top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                <div className="absolute w-[90%] top-[38%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
                   <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     Journey to Serenity: Uncover Sri Lanka's Natural Beauty
                   </h1>
@@ -62,7 +62,7 @@ export default class Hero extends Component {
                   priority={true}
                   loading="eager"
                 />
-                <div className="absolute w-[90%] top-[38%] sm:top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                <div className="absolute w-[90%] top-[38%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
                   <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     Immerse Yourself in Sri Lanka's Rich Heritage
                   </h1>
@@ -88,7 +88,7 @@ export default class Hero extends Component {
                   priority={true}
                   loading="eager"
                 />
-                <div className="absolute w-[90%] top-[38%] sm:top-1/2 md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                <div className="absolute w-[90%] top-[38%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
                   <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     From Beaches to Mountains - Nature's Masterpiece
                   </h1>
