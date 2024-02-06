@@ -14,7 +14,7 @@ export default class Hero extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
@@ -30,17 +30,16 @@ export default class Hero extends Component {
                 <Image
                   width={8000}
                   height={8000}
-                  src="/assets/images/Hero.jpg"
+                  src="/assets/images/NuwaraEliya.jpg"
                   alt="Hero"
                   className="object-cover brightness-[60%]"
-                  priority={true}
-                  loading="eager"
+                  loading="lazy"
                 />
-                <div className="absolute w-[90%] top-[38%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                <div className="absolute w-[90%] top-[38%] md:top-1/3 xxl:top-[28%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
                   <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
-                    Journey to Serenity: Uncover Sri Lanka's Natural Beauty
+                    Journey to Serenity: Uncover Sri Lanka's Beauty
                   </h1>
-                  <p className="italic mt-3 md:mt-8 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
+                  <p className="text-white/60 italic mt-3 xl:mt-16 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
                     "Unveil pristine landscapes and untouched wonders.
                     Experience the raw beauty of Sri Lanka, where nature's
                     treasures await your exploration."
@@ -56,17 +55,16 @@ export default class Hero extends Component {
                 <Image
                   width={8000}
                   height={8000}
-                  src="/assets/images/NuwaraEliya.jpg"
+                  src="/assets/images/Sigiriya.jpg"
                   alt="Hero"
                   className="object-cover brightness-[60%]"
-                  priority={true}
-                  loading="eager"
+                  loading="lazy"
                 />
-                <div className="absolute w-[90%] top-[38%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                <div className="absolute w-[90%] top-[50%] md:top-[39%] xl:top-[37%] xxl:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
                   <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     Immerse Yourself in Sri Lanka's Rich Heritage
                   </h1>
-                  <p className="italic mt-3 md:mt-8 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
+                  <p className="text-white/60 italic mt-3 xl:mt-16 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
                     "Dive into a tapestry of history and tradition. Walk through
                     ancient temples, explore cultural gems, and immerse yourself
                     in the vibrant heritage of Sri Lanka."
@@ -85,14 +83,13 @@ export default class Hero extends Component {
                   src="/assets/images/Beach.jpg"
                   alt="Hero"
                   className="object-cover brightness-[60%]"
-                  priority={true}
-                  loading="eager"
+                  loading="lazy"
                 />
-                <div className="absolute w-[90%] top-[38%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
+                <div className="absolute w-[90%] top-[38%] md:top-[32%] xl:top-[29.5%] xxl:top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flexCenter flex-col text-center">
                   <h1 className="text-base xxs:text-lg sm:text-3xl lg:text-5xl xxxl:text-7xl font-medium">
                     From Beaches to Mountains - Nature's Masterpiece
                   </h1>
-                  <p className="italic mt-3 md:mt-8 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
+                  <p className="text-white/60 italic mt-3 xl:mt-16 text-[10px] sm:text-base lg:text-xl xxxl:text-2xl">
                     "Journey from sun-kissed beaches to misty mountains. Sri
                     Lanka, a natural masterpiece, offers diverse landscapes that
                     promise awe-inspiring views and unforgettable adventures."

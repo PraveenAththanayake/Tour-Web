@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { Satisfy } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,6 +9,12 @@ export const poppins = Poppins({
   weight: ["300", "400", "500"],
   subsets: ["latin"],
   variable: "--font-poppins",
+});
+
+export const satisfy = Satisfy({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-satisfy",
 });
 
 export const metadata: Metadata = {
