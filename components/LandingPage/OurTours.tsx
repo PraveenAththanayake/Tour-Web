@@ -9,11 +9,11 @@ const OurTours = () => {
   const handleToggle = () => setShow(!show);
   return (
     <div className="mx-auto mt-8 w-[90vw]">
-      <div className="border border-black rounded-lg flexCenter flex-col p-5">
-        <h1>Our Awesome Tours</h1>
-        <div className="w-[80vw]">
+      <div className="border border-green-500 rounded-lg flexCenter flex-col p-5">
+        <h1 className="text-[18px] font-medium mb-5">Our Awesome Tours</h1>
+        <div className="w-[90vw]">
           <div className="mx-auto px-5">
-            <div className="flex flex-col md:flex-row cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:shadow-md">
+            <div className="flex flex-col md:flex-row rounded-lg bg-white p-2 shadow duration-150 hover:shadow-md">
               <img
                 className="w-full rounded-lg object-cover object-center max-w-xs h-56"
                 src="/assets/images/Minneriya.jpg"
@@ -21,7 +21,11 @@ const OurTours = () => {
               />
               <div className="my-4 pl-4">
                 <h3 className="font-bold">Splendor Lovers</h3>
-                <Collapse startingHeight={75} in={show}>
+                <Collapse
+                  startingHeight={75}
+                  in={show}
+                  className="text-[12px] md:text-[16px]"
+                >
                   This is a tour plan for newly married couples or couples who
                   are celebrating their anniversary. It will be a delight to
                   have this tour plan. We make it so that we can have a more
@@ -37,14 +41,14 @@ const OurTours = () => {
                     size="sm"
                     onClick={handleToggle}
                     mt="1rem"
-                    className="border border-black hover:bg-black hover:text-white duration-150 py-3 px-5 rounded-md"
+                    className="text-[12px] md:text-[16px] border border-black hover:bg-black hover:text-white duration-150 py-2 px-4 md:py-3 md:px-7 rounded-md font-medium"
                   >
                     Show {show ? "Less" : "More"}
                   </Button>
                   <Button
                     size="sm"
                     mt="1rem"
-                    className="bg-green-400 hover:bg-white border border-green-400 duration-150 py-3 px-7 rounded-md"
+                    className="text-[12px] md:text-[16px] bg-green-400 hover:bg-white border border-green-400 duration-150 py-2 px-4 md:py-3 md:px-7 rounded-md font-medium"
                   >
                     Book Tour
                   </Button>
