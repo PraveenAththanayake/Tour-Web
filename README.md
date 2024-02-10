@@ -20,7 +20,7 @@ The design of our website has been meticulously crafted using Figma. You can vie
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, Next Js (for mobile app version).
+- **Frontend**: HTML, CSS, JavaScript, Next Js (for web version).
 - **Backend**: Node.js with Express.js (API endpoints), MongoDB (database).
 - **Design**: Figma for design mockups and prototypes.
 
