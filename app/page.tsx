@@ -1,6 +1,7 @@
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/LandingPage/AboutUs";
+import Destinations from "@/components/LandingPage/Destinations";
 import OurTours from "@/components/LandingPage/OurTours";
 
 export default function Home() {
@@ -8,9 +9,9 @@ export default function Home() {
     <main>
       <Hero />
       <AboutUs />
-      {/* <Features /> */}
+      <Features />
       <OurTours />
-      Home
+      <Destinations />
     </main>
   );
 }
